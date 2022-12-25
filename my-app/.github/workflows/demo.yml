@@ -1,0 +1,11 @@
+name: GitHub Actions Demo
+on: 
+  push:
+    branches: [main]
+jobs:
+  GH-Actions-Demo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Step 1"
+      - run: echo "Step 2"
+      - run: echo "Step 3"
