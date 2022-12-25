@@ -11,4 +11,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: cd ./my-app
       - run: npm install
+      - run: echo $(pwd)
       - run: npm run deploy
