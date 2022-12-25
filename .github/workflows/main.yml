@@ -9,7 +9,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: cd ./my-app
+      - run: cd my-app
       - run: npm install
       - run: echo $(ls)
       - run: npm run deploy
